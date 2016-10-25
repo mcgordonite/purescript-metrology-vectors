@@ -1,0 +1,32 @@
+{
+  "name": "purescript-metrology-vectors",
+  "description": "Matrix and vector operations on measurements with units",
+  "homepage": "https://github.com/mcgordonite/purescript-metrology-vectors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcgordonite/purescript-metrology-vectors.git"
+  },
+  "authors": [
+    "Matthew Gordon <mc.gordonite@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "output",
+    "bower.json"
+  ],
+  "keywords": [
+    "purescript",
+    "units",
+    "vector",
+    "matrix"
+  ],
+  "dependencies": {
+    "purescript-matrix": "^1.1.0",
+    "purescript-metrology": "https://github.com/mcgordonite/purescript-metrology.git"
+  },
+  "devDependencies": {
+    "purescript-test-unit": "^10.0.1"
+  }
+}
